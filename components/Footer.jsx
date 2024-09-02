@@ -1,6 +1,4 @@
-// components/Footer.jsx
-
-const Footer = () => {
+  const Footer = () => {
     console.log("Footer component is rendering");
     return (
       <footer style={styles.footer}>
@@ -13,4 +11,27 @@ const Footer = () => {
       </footer>
     );
   };
-  
+
+  const styles = {
+  footer: {
+    marginTop: '50px',
+    padding: '20px',
+    textAlign: 'center',
+    backgroundColor: '#333',
+    color: '#fff',
+  },
+  footerLinks: {
+    listStyle: 'none',
+    padding: 0,
+    display: 'flex',
+    justifyContent: 'center',
+    gap: '15px',
+    marginTop: '10px',
+  },
+  link: {
+    color: '#fff',
+    textDecoration: 'none',
+  },
+  };
+
+  export default Footer;

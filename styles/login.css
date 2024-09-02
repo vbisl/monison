@@ -1,0 +1,78 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* ---> Konteyner içeriğini dikeyde ortalamak için */
+    min-height: 50vh;
+    margin: auto; /* ---> Konteyneri ekranın ortasına yerleştirmek için */
+    background-color: rgba(128, 128, 128, 0.8); /* ---> Arka plan rengini gri ve %80 opaklıkta yapmak için */
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .login-container-wrapper {
+    display: flex;
+    justify-content: center; /* ---> Wrapper içindeki konteyneri yatayda ortalamak için */
+    align-items: center; /* ---> Wrapper içindeki konteyneri dikeyde ortalamak için */
+    min-height: calc(100vh - 80px); /* ---> Ekranın tamamını kaplaması için (nav ve footer boyutları hesaba katılarak) */
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+  }
+  
+  .login-input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .login-button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3; /* ---> Login butonu için hover efekti (mavi buton için koyu mavi ton) */
+    opacity: 0.8; /* ---> Hover sırasında butonun rengini biraz soluklaştırır */
+  }
+  
+  .register-button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #28a745; /* Register butonu için arka plan rengi */
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .register-button:hover {
+    background-color: #218838; /* ---> Register butonu için hover efekti (yeşil buton için koyu yeşil ton) */
+    opacity: 0.8; /* ---> Hover sırasında butonun rengini biraz soluklaştırır */
+  }
+  
+  .login-status {
+    margin-top: 15px;
+    font-size: 14px;
+    color: red;
+  }
+  
+  .error-text {
+    color: red;
+    font-size: 12px;
+  }
+  

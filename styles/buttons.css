@@ -1,0 +1,16 @@
+/* buttons.css */
+
+.button {
+    font-size: 24px;           /* Butonun boyutunu ayarlar */
+    cursor: pointer;           /* Fare imlecini pointer yapar */
+    padding: 10px;             /* Butona boşluk ekler */
+    background-color: #1a1a1a; /* Arka plan rengi */
+    color: #fff;               /* Metin rengi */
+    border: none;              /* Varsayılan sınırları kaldırır */
+    border-radius: 4px;        /* Kenarları yuvarlar */
+    transition: background-color 0.3s; /* Hover'da arka plan renginin geçişi */
+}
+
+.button:hover {
+    background-color: #333;    /* Hover durumu için daha açık arka plan rengi */
+}

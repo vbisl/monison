@@ -2,8 +2,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
-  background-color: #f4f4f4;
+  background: linear-gradient(135deg, #2c3e50, #fd79a8);
+  min-height: 100vh;
+  color: #fff;
 }
+
 
 a {
   color: inherit;
@@ -13,3 +16,71 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* Eklenen Stiller */
+nav {
+  background-color: #333;
+  color: #fff;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.menu {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.footerLinks a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+  .menuToggle {
+    display: block;
+  }
+
+  .navItems {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+  }
+}
+
