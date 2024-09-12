@@ -5,7 +5,7 @@ const About = () => {
     <div style={styles.container}>
       <h1 style={styles.header}>Hakkımızda</h1>
       <p style={styles.paragraph}>
-        MyBookstore'a hoş geldiniz! Burası, kitaplarla ilgili her şeyin bulunduğu bir numaralı kaynağınız. Size en iyi okuma materyallerini sunmak için buradayız. Kalite, müşteri hizmetleri ve özgünlük konularında odaklanmış durumdayız.
+        Monibook'a hoş geldiniz! Burası, kitaplarla ilgili her şeyin bulunduğu bir numaralı kaynağınız. Size en iyi okuma materyallerini sunmak için buradayız. Kalite, müşteri hizmetleri ve özgünlük konularında odaklanmış durumdayız.
       </p>
       <p style={styles.paragraph}>
         MyBookstore, 2023 yılında kuruldu. İlk başladığımızda, kitaplara olan tutkumuz bizi derin bir araştırma yapmaya yöneltti, böylece MyBookstore size dünyanın en gelişmiş online kitapçısını sunabilir. Şimdi ülke genelinde müşterilere hizmet veriyoruz ve bu tutkumuzu kendi web sitemize dönüştürebildiğimiz için çok mutluyuz.

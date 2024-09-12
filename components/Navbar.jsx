@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Navbar = () => {
   return (
     <nav style={styles.navbar}>
-      <div style={styles.logo}>MyBookstore</div>
+      <div style={styles.logo}>Monibook</div>
       <div style={styles.rightSection}>
         <Link href="/login">
           <button style={styles.loginButton}>Login</button>

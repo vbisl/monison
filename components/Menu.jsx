@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import '../styles/buttons.css'; // buttons.css dosyasını import edin
+import { useNavigate } from 'react-router-dom';
 
 const Menu = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
-
+  const navigate = useNavigate(); // Yönlendirme fonksiyonu
   const handleMenuToggle = () => {
     setMenuOpen(!isMenuOpen);
   };
@@ -21,9 +22,7 @@ const Menu = () => {
         <li style={styles.navItem}>
           <Link href="/about">About</Link>
         </li>
-        <li style={styles.navItem}>
-          <Link href="/Kategoriler">Kategoriler</Link>
-        </li>
+        <button onClick={() => navigate('/kategoriler')}>Kategorilere Git</button> {/* Buton yönlendirmesi */}
         <li style={styles.navItem}>
           <Link href="/Contact">Contact</Link>
         </li>

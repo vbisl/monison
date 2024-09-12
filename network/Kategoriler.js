@@ -2,7 +2,7 @@ import api from "../api";
 
 const getCategories = async () => {
   try {
-    const response = await api.get("/Kategoriler");
+    const response = await api.get("/ategoriler");
     return response;
   } catch (error) {
     console.log(error);
@@ -11,7 +11,7 @@ const getCategories = async () => {
 
 const getCategoryById = async (id) => {
   try {
-    const response = await api.get(`/Kategoriler/${id}`);
+    const response = await api.get(`/ategoriler/${id}`);
     return response;
   } catch (error) {
     console.log(error);
